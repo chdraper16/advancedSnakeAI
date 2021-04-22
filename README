@@ -1,0 +1,29 @@
+readme
+
+Required libraries:
+Keras
+Keras-rl
+matplotlib
+numpy
+
+To run:
+
+Place both game.py and learning.py within the same directory.
+
+To run the neural network training:
+python3 learning.py
+
+To play the game:
+python3 game.py 
+
+Both will ask you what field design to use, your options are:
+-1: Random, randomly generates a field design for each game to play 
+0: Empty, an empty board with no walls
+1: Walls, an board with walls along the edges
+2: Cross, a board with a cross design in the middle
+4: Random small blocks, randomly place a number of walls in the field
+8: Random small holes, randomly remove a number of placed walls
+
+These options may be ORed together to combine them (Excluding the random option).
+game.py will also ask for the field size, view size, and print type.
+learning.py by default uses a 10 by 10 field.
