@@ -27,3 +27,5 @@ Both will ask you what field design to use, your options are:
 These options may be ORed together to combine them (Excluding the random option).
 game.py will also ask for the field size, view size, and print type.
 learning.py by default uses a 10 by 10 field.
+
+An example of the neural network playing snake can be found in example_game.txt
